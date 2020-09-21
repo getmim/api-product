@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'api-product',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/api-product.git',
     '__license' => 'MIT',
     '__author' => [
@@ -11,7 +11,8 @@ return [
         'website' => 'https://iqbalfn.com/'
     ],
     '__files' => [
-        'modules/api-product' => ['install','update','remove']
+        'modules/api-product' => ['install','update','remove'],
+        'app/api-product' => ['install','remove']
     ],
     '__dependencies' => [
         'required' => [
