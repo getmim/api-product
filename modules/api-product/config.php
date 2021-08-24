@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'api-product',
-    '__version' => '0.0.2',
+    '__version' => '0.0.3',
     '__git' => 'git@github.com:getmim/api-product.git',
     '__license' => 'MIT',
     '__author' => [
@@ -32,7 +32,7 @@ return [
         'classes' => [
             'ApiProduct\\Controller' => [
                 'type' => 'file',
-                'base' => 'modules/api-product/controller'
+                'base' => 'app/api-product/controller'
             ]
         ],
         'files' => []
